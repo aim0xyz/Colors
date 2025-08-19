@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Path</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miro's Maze</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game-container">
-        <canvas id="game-canvas"></canvas>
-        <div id="ui">
-            <div id="score">Score: 0</div>
-            <div id="level">Level: 1</div>
-            <button id="start-btn">Start Game</button>
-            <button id="hint-btn">Hint</button>
-        </div>
-    </div>
-    <script src="game.js"></script>
+  <div id="game-container">
+    <div id="score">Coins: <span id="coin-count">0</span></div>
+    <div id="maze"></div>
+    <div id="character"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
